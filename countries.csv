@@ -1,0 +1,240 @@
+index,Country
+0,Japan
+1,Indonesia
+2,India
+3,Philippines
+4,Brazil
+5,South Korea
+7,China
+8,Mexico
+10,Egypt
+12,United States
+14,Russia
+15,Thailand
+16,Bangladesh
+17,Argentina
+19,Nigeria
+20,Turkey
+21,Pakistan
+22,Congo (Kinshasa)
+25,Vietnam
+26,Iran
+33,United Kingdom
+34,France
+45,Peru
+47,Angola
+50,Malaysia
+62,Colombia
+68,Tanzania
+70,Hong Kong
+82,Chile
+84,Saudi Arabia
+98,Iraq
+101,Sudan
+102,Spain
+117,Kenya
+125,Myanmar
+126,Canada
+135,Singapore
+145,Côte d'Ivoire
+155,Australia
+174,South Africa
+179,Morocco
+185,Afghanistan
+195,Jordan
+210,Germany
+221,Algeria
+239,Bolivia
+249,Ethiopia
+254,Kuwait
+258,Ukraine
+259,Yemen
+261,Guatemala
+271,Italy
+275,North Korea
+276,Taiwan
+281,Ecuador
+295,Madagascar
+298,Dominican Republic
+310,United Arab Emirates
+312,Uzbekistan
+316,Burkina Faso
+319,Cameroon
+336,Ghana
+348,Azerbaijan
+350,Zimbabwe
+351,Cuba
+352,Cambodia
+354,Somalia
+378,Mali
+380,Belarus
+387,Venezuela
+389,Syria
+391,Kazakhstan
+392,Austria
+395,Malawi
+398,Romania
+408,Congo (Brazzaville)
+415,Poland
+421,Belgium
+422,Zambia
+424,Hungary
+439,Guinea
+440,Uganda
+501,Oman
+506,Mongolia
+509,Serbia
+516,New Zealand
+519,Czechia
+527,Uruguay
+544,Bulgaria
+551,Honduras
+574,Mozambique
+575,Qatar
+577,Senegal
+598,Rwanda
+610,Libya
+614,Georgia
+619,Chad
+626,Denmark
+636,Armenia
+638,Mauritania
+650,Kyrgyzstan
+652,Tunisia
+658,Nepal
+673,Niger
+675,Nicaragua
+679,Liberia
+683,Haiti
+701,Sweden
+702,Eritrea
+703,Sierra Leone
+704,Laos
+705,Israel
+706,Central African Republic
+707,Panama
+708,Netherlands
+709,Togo
+710,Gabon
+711,Croatia
+712,Tajikistan
+714,Benin
+715,Sri Lanka
+719,Norway
+720,Greece
+721,Burundi
+722,Finland
+723,Macedonia
+724,Moldova
+725,Latvia
+726,Jamaica
+728,Lithuania
+729,El Salvador
+730,Djibouti
+731,Ireland
+733,Paraguay
+734,Portugal
+735,Slovakia
+737,Estonia
+738,Lebanon
+740,Albania
+744,Guinea-Bissau
+746,South Sudan
+749,Lesotho
+750,Cyprus
+751,Namibia
+752,Papua New Guinea
+755,Costa Rica
+756,Slovenia
+757,Bosnia And Herzegovina
+758,The Bahamas
+760,Martinique
+762,Botswana
+763,Suriname
+764,Timor-Leste
+765,Maldives
+766,Guyana
+767,Gibraltar
+768,Reunion
+769,Equatorial Guinea
+770,Montenegro
+771,Bahrain
+772,Mauritius
+773,Curaçao
+774,Switzerland
+775,French Polynesia
+776,Luxembourg
+777,Iceland
+778,Cabo Verde
+780,Barbados
+781,Comoros
+782,Bhutan
+783,Swaziland
+784,New Caledonia
+785,Solomon Islands
+786,Fiji
+788,Saint Lucia
+789,French Guiana
+790,Sao Tome And Principe
+791,Vanuatu
+792,Bermuda
+793,Brunei
+794,Monaco
+796,Trinidad And Tobago
+797,Samoa
+798,Kiribati
+799,Aruba
+800,Jersey
+801,The Gambia
+802,Mayotte
+803,Marshall Islands
+804,Isle Of Man
+805,Cayman Islands
+806,Seychelles
+807,Saint Vincent And The Grenadines
+808,Andorra
+809,Antigua And Barbuda
+810,Tonga
+811,Turkmenistan
+812,Greenland
+813,Belize
+814,Dominica
+815,Saint Kitts And Nevis
+816,Faroe Islands
+817,American Samoa
+818,Malta
+819,Gaza Strip
+820,Turks And Caicos Islands
+821,Federated States of Micronesia
+822,Tuvalu
+823,Liechtenstein
+825,Cook Islands
+826,Grenada
+827,San Marino
+828,West Bank
+829,Northern Mariana Islands
+830,Falkland Islands (Islas Malvinas)
+831,Vatican City
+832,Niue
+833,Guadeloupe
+834,Guam
+835,Saint Martin
+836,"Saint Helena, Ascension, And Tristan Da Cunha"
+837,Montserrat
+838,Sint Maarten
+839,Nauru
+840,Kosovo
+841,Saint Barthelemy
+842,British Virgin Islands
+843,Palau
+844,Saint Pierre And Miquelon
+845,Anguilla
+846,Wallis And Futuna
+847,Norfolk Island
+848,Svalbard
+850,Pitcairn Islands
+851,Christmas Island
+852,South Georgia And South Sandwich Islands
+1084,Macau
+1957,Puerto Rico
+42284,U.S. Virgin Islands
