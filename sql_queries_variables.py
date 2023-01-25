@@ -26,3 +26,11 @@ SQL_COUNTRY_TABLE = '''
                     SET IDENTITY_INSERT Countries OFF
                     '''
 TABLE_COUNTRY_COLUMNS = ['CountryID', 'Name']
+SQL_PERSON_TABLE = '''
+                    SET IDENTITY_INSERT Persons ON
+                    INSERT INTO Persons (PersonID, birthdate, first_name, genre, last_name, sexual_orientation, CityID)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                    SET IDENTITY_INSERT Persons OFF
+                    '''
+TABLE_PERSON_COLUMNS = ['PersonID', 'birthdate', 'first_name', 'genre',
+                        'last_name', 'sexual_orientation', 'CityID']

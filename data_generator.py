@@ -6,6 +6,7 @@ from faker import Faker
 import os
 import random
 
+
 def limit_country_city(number_rows):
     worldcities_df = pd.read_csv("worldcities.csv",
                                  sep=',',
@@ -42,6 +43,7 @@ def limit_country_city(number_rows):
     worldcities_df_filtered = worldcities_df.query("Country in @country_research").head(num_cities)
     worldcities_df_filtered.to_csv("city_country_generate.csv", header=False, index=False)
     return "city_country_generate.csv"
+
 
 def fake_person(number_rows):
     id_person = 0
