@@ -2,14 +2,15 @@ import pypyodbc as odbc
 
 
 class AppSQL:
-    def __init__(self):
+    def __init__(self, server, database):
         """
 
         """
         self.con = odbc.connect('Driver={SQL Server};'
-                                'Server=DESKTOP-NV2VHI6\SQLEXPRESS;'
-                                'Database=ConnectPeople;'
-                                'Trusted_Connection=yes;')
+                                'Server=%s;'
+                                'Database=%s;'
+                                'Trusted_Connection=yes;'
+                                % (server, database))
         self.cur = self.con.cursor()
 
     @staticmethod

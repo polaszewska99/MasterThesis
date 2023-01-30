@@ -154,3 +154,87 @@ class AppNeo4j:
             logging.error("{query} raised an error: \n {exception}".format(
                 query=query, exception=exception))
             raise
+
+    def has_characteristic_to_df(self):
+        with self.driver.session() as session:
+            result = session.execute_read(
+                self._has_characteristic_to_df
+            )
+            result_list = []
+            for row in result:
+                result_list.append(["{row[id(ch)]}".format(row=row),
+                                    "{row[id(p)]}".format(row=row)])
+            df = pd.DataFrame(result_list, columns=['CharacteristicID', 'PersonID'])
+            return df
+
+    @staticmethod
+    def _has_characteristic_to_df(tx):
+        query = (
+            """
+            MATCH (p:Person)-[:HAS_CHARACTERISTIC]->(ch:Characteristic)
+            RETURN id(ch), id(p)
+            """
+        )
+        result = tx.run(query)
+        try:
+            return [row for row in result]
+        except ServiceUnavailable as exception:
+            logging.error("{query} raised an error: \n {exception}".format(
+                query=query, exception=exception))
+            raise
+
+    def wants_characteristic_to_df(self):
+        with self.driver.session() as session:
+            result = session.execute_read(
+                self._wants_characteristic_to_df
+            )
+            result_list = []
+            for row in result:
+                result_list.append(["{row[id(ch)]}".format(row=row),
+                                    "{row[id(p)]}".format(row=row)])
+            df = pd.DataFrame(result_list, columns=['CharacteristicID', 'PersonID'])
+            return df
+
+    @staticmethod
+    def _wants_characteristic_to_df(tx):
+        query = (
+            """
+            MATCH (p:Person)-[:WANTS_CHARACTERISTIC]->(ch:Characteristic)
+            RETURN id(ch), id(p)
+            """
+        )
+        result = tx.run(query)
+        try:
+            return [row for row in result]
+        except ServiceUnavailable as exception:
+            logging.error("{query} raised an error: \n {exception}".format(
+                query=query, exception=exception))
+            raise
+
+    def interested_to_df(self):
+        with self.driver.session() as session:
+            result = session.execute_read(
+                self._interested_to_df
+            )
+            result_list = []
+            for row in result:
+                result_list.append(["{row[id(p)]}".format(row=row),
+                                    "{row[id(h)]}".format(row=row)])
+            df = pd.DataFrame(result_list, columns=['PersonID', 'HobbyID'])
+            return df
+
+    @staticmethod
+    def _interested_to_df(tx):
+        query = (
+            """
+            MATCH (p:Person)-[:INTERESTED_IN]->(h:Hobby)
+            RETURN id(p), id(h)
+            """
+        )
+        result = tx.run(query)
+        try:
+            return [row for row in result]
+        except ServiceUnavailable as exception:
+            logging.error("{query} raised an error: \n {exception}".format(
+                query=query, exception=exception))
+            raise
