@@ -1,5 +1,4 @@
 import pypyodbc as odbc
-from memory_profiler import profile
 from measure_rate import *
 
 class AppSQL:
@@ -25,6 +24,17 @@ class AppSQL:
 
     @fn_timer
     @fn_cpu_memory_usage
-    #@profile()
     def test_select(self):
         self.cur.execute('''SELECT * FROM Characteristics''')
+
+    def clear_database(self):
+        self.cur.execute('''DELETE FROM Persons;
+                            DELETE FROM Cities;
+                            DELETE FROM Countries;
+                            DELETE FROM Hobbies;
+                            DELETE FROM Characteristics;
+                            DELETE FROM Has_Characteristic;
+                            DELETE FROM Wants_Characteristic;
+                            DELETE FROM Interested_in;
+                            DELETE FROM Matches;
+                        ''')

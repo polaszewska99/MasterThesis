@@ -51,17 +51,16 @@ def fake_person(number_rows):
     fake = Faker()
     fake.add_provider(MyProvider)
 
-    with open('person.csv', 'a', newline='', encoding='utf-8') as file:
+    with open('C:\\Users\\alicj\\.Neo4jDesktop\\relate-data\\dbmss\\dbms-1135eac1-af43-4af5-bcea-dcb29f1a1b3b\\import\\person.csv', 'a+', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
 
-        if os.stat("person.csv").st_size == 0:
+        if os.stat("C:\\Users\\alicj\\.Neo4jDesktop\\relate-data\\dbmss\\dbms-1135eac1-af43-4af5-bcea-dcb29f1a1b3b\\import\\person.csv").st_size == 0:
             writer.writerow(
                 ["ID", "First Name", "Last Name", "genre", "orientation", "birthdate", "Country", "City",
                  "Has_Characteristic", "Wants_Characteristic", "Hobbies"])
         else:
             with open(
-                    'C:\\Users\\alicj\\.Neo4jDesktop\\relate-data\\dbmss\\dbms-1135eac1-af43-4af5-bcea-dcb29f1a1b3b'
-                    '\\import',
+                    'C:\\Users\\alicj\\.Neo4jDesktop\\relate-data\\dbmss\\dbms-1135eac1-af43-4af5-bcea-dcb29f1a1b3b\\import',
                     'r') as f:
                 last_line = f.readlines()[-1]
             result = re.split(',', last_line)

@@ -1,1000 +1,809 @@
 Tokyo,Japan
-Jakarta,Indonesia
-Delhi,India
-Manila,Philippines
-Sao Paulo,Brazil
-Seoul,South Korea
-Mumbai,India
-Shanghai,China
-Mexico City,Mexico
-Guangzhou,China
-Cairo,Egypt
-Beijing,China
-New York,United States
-Kolkata,India
-Moscow,Russia
-Bangkok,Thailand
-Dhaka,Bangladesh
-Buenos Aires,Argentina
 Osaka,Japan
-Lagos,Nigeria
-Istanbul,Turkey
-Karachi,Pakistan
-Kinshasa,Congo (Kinshasa)
-Shenzhen,China
-Bangalore,India
-Ho Chi Minh City,Vietnam
-Tehran,Iran
-Los Angeles,United States
-Rio de Janeiro,Brazil
-Chengdu,China
-Baoding,China
-Chennai,India
-Lahore,Pakistan
-London,United Kingdom
-Paris,France
-Tianjin,China
-Linyi,China
-Shijiazhuang,China
-Zhengzhou,China
-Nanyang,China
-Hyderabad,India
-Wuhan,China
-Handan,China
 Nagoya,Japan
-Weifang,China
-Lima,Peru
-Zhoukou,China
-Luanda,Angola
-Ganzhou,China
-Tongshan,China
-Kuala Lumpur,Malaysia
-Chicago,United States
-Heze,China
-Chongqing,China
-Hanoi,Vietnam
-Fuyang,China
-Changsha,China
-Dongguan,China
-Jining,China
-Jinan,China
-Pune,India
-Foshan,China
-Bogota,Colombia
-Ahmedabad,India
-Nanjing,China
-Changchun,China
-Tangshan,China
-Cangzhou,China
-Dar es Salaam,Tanzania
-Hefei,China
-Hong Kong,Hong Kong
-Shaoyang,China
-Zhanjiang,China
-Shangqiu,China
-Nantong,China
-Yancheng,China
-Nanning,China
-Hengyang,China
-Zhumadian,China
-Shenyang,China
-Xingtai,China
-Xi'an,China
-Santiago,Chile
-Yantai,China
-Riyadh,Saudi Arabia
-Luoyang,China
-Kunming,China
-Shangrao,China
-Hangzhou,China
-Bijie,China
-Quanzhou,China
-Miami,United States
-Wuxi,China
-Huanggang,China
-Maoming,China
-Nanchong,China
-Zunyi,China
-Qujing,China
-Baghdad,Iraq
-Xinyang,China
-Jieyang,China
-Khartoum,Sudan
-Madrid,Spain
-Allahabad,India
-Yulin,China
-Changde,China
-Liaocheng,China
-Qingdao,China
-Dallas,United States
-Nangandao,China
-Xiangyang,China
-Philadelphia,United States
-Giza,Egypt
-Lu'an,China
-Zhaotong,China
-Yichun,China
-Dezhou,China
-Nairobi,Kenya
-Nanchang,China
-Tai'an,China
-Dazhou,China
-Houston,United States
-Guadalajara,Mexico
-Yongzhou,China
-Atlanta,United States
-Rangoon,Myanmar
-Toronto,Canada
-Suihua,China
-Saint Petersburg,Russia
-Washington,United States
-Qiqihar,China
-Suzhou,China
-Shantou,China
-Weinan,China
-Changzhou,China
-Singapore,Singapore
-Fuzhou,China
-Pudong,China
-Belo Horizonte,Brazil
-Zhangzhou,China
-Yuncheng,China
-Suzhou,China
-Xianyang,China
-Guilin,China
-Taizhou,China
-Abidjan,Côte d'Ivoire
-Huaihua,China
-Ji'an,China
-Xiaoganzhan,China
-Pingdingshan,China
-Jiujiang,China
-Surat,India
-Guiyang,China
-Alexandria,Egypt
-Bozhou,China
-Sydney,Australia
-Huizhou,China
-Huai'an,China
-Chenzhou,China
-Barcelona,Spain
-Anqing,China
-Suqian,China
-Boston,United States
-Jiangmen,China
-Mianyang,China
-Harbin,China
-Huanglongsi,China
-Melbourne,Australia
-Zibo,China
-Dalian,China
-Hengshui,China
-Yibin,China
-Yangzhou,China
-Timbio,Colombia
-Johannesburg,South Africa
-Yiyang,China
-Guigang,China
-Xinpu,China
-Meizhou,China
-Casablanca,Morocco
-Langfang,China
-Zhangjiakou,China
-Chifeng,China
-Linfen,China
-Jiangguanchi,China
-Kabul,Afghanistan
-Phoenix,United States
-Luzhou,China
-Taiyuan,China
-Zhaoqing,China
-Xiaoxita,China
-Xiamen,China
-Fuzhou,China
-Liuzhou,China
-Zhuzhou,China
-Amman,Jordan
-Jeddah,Saudi Arabia
-Chuzhou,China
-Loudi,China
-Deyang,China
-Qingyuan,China
-Kano,Nigeria
-Wuhu,China
-Seattle,United States
 Yokohama,Japan
-Binzhou,China
-Baojishi,China
-Zaozhuang,China
-Neijiang,China
-Baicheng,China
-Berlin,Germany
-Anshan,China
-Lanzhou,China
-Puyang,China
-San Francisco,United States
-Jiaozuo,China
-Hechi,China
-Montreal,Canada
-Detroit,United States
-Chengde,China
-Busan,South Korea
-Algiers,Algeria
-Hanzhong,China
-Shiyan,China
-Lucknow,India
-Siping,China
-Yulinshi,China
-Changzhi,China
-Qinzhou,China
-Bazhou,China
-Qincheng,China
-Zhongshan,China
-Suining,China
-Leshan,China
-San Diego,United States
-Faisalabad,Pakistan
-Guang'an,China
-Tongren,China
-Bengbu,China
-Santa Cruz,Bolivia
-Qinhuangdao,China
-Tongliao,China
-Jinzhou,China
-Zhenjiang,China
-Urumqi,China
-Heyuan,China
-Jaipur,India
-Xinzhou,China
-Wuzhou,China
-Addis Ababa,Ethiopia
-Chaoyang,China
-Brasilia,Brazil
-Mashhad,Iran
-Shaoguan,China
-Kuwait City,Kuwait
-Shanwei,China
-Quezon City,Philippines
-Minneapolis,United States
-Kyiv,Ukraine
-Sanaa,Yemen
-Meishan,China
-Incheon,South Korea
-Ningde,China
-Tampa,United States
-Daqing,China
-Putian,China
-Bandung,Indonesia
-Surabaya,Indonesia
-Salvador,Brazil
-Denver,United States
-La Paz,Bolivia
-Hohhot,China
-Xiangtan,China
-Weihai,China
-Rizhao,China
-Mudanjiang,China
-Tieling,China
-Cawnpore,India
-Dingxi,China
-Nanping,China
-Zigong,China
-Chaozhou,China
-Baotou,China
-Gulou,China
-Longyan,China
-Ankang,China
-Baoshan,China
-Huludao,China
-Yanjiang,China
-Chattogram,Bangladesh
-Sanming,China
-Longba,China
-Brooklyn,United States
-Yangjiang,China
-Jiamusi,China
-Ibadan,Nigeria
-Luohe,China
-Lincang,China
-Medellin,Colombia
-Xuanzhou,China
-Yunfu,China
-Mirzapur,India
-Guangyuan,China
-Cali,Colombia
-Huangshi,China
-Daegu,South Korea
-Fortaleza,Brazil
-Jilin,China
-Dandong,China
-Lianshan,China
-Yingkou,China
-Nagpur,India
-Omdurman,Sudan
-Bekasi,Indonesia
-Ghaziabad,India
-Yuxi,China
-Brisbane,Australia
-Anshun,China
-Depok,Indonesia
-Shangzhou,China
-Huainan,China
-Kuaidamao,China
 Fukuoka,Japan
-Jincheng,China
-Vancouver,Canada
-Tangerang,Indonesia
-Sanmenxia,China
-Laibin,China
-Queens,United States
-Qinbaling,China
-Xining,China
-Ma'anshan,China
-Yan'an,China
-Gaoping,China
-Ningbo,China
-Puning,China
-Medan,Indonesia
-Huaibei,China
-Qingyang,China
-Riverside,United States
-Baltimore,United States
-Haiphong,Vietnam
-Las Vegas,United States
-Chongzuo,China
-Rawalpindi,Pakistan
-Portland,United States
-Vadodara,India
-Hezhou,China
-Pingliang,China
-San Antonio,United States
-Perth,Australia
-Vishakhapatnam,India
-Shengli,China
-Gujranwala,Pakistan
-Baicheng,China
-Fushun,China
-St. Louis,United States
-Indore,India
-Yinchuan,China
-Kananga,Congo (Kinshasa)
-Peshawar,Pakistan
 Sapporo,Japan
-Esfahan,Iran
-Pingxiang,China
-Tijuana,Mexico
-Thane,India
-Sacramento,United States
-Zhuhai,China
-Curitiba,Brazil
-Multan,Pakistan
-Xiping,China
-Ecatepec,Mexico
-Jixi,China
-Saidu Sharif,Pakistan
-Liaoyang,China
-Hamburg,Germany
-Meru,Kenya
-Orlando,United States
-Fuxin,China
-Wuwei,China
-Manaus,Brazil
-Bhopal,India
-San Jose,United States
-Lubumbashi,Congo (Kinshasa)
-Davao,Philippines
-Haikou,China
-Shuyangzha,China
-Hyderabad City,Pakistan
-Shuozhou,China
-Cleveland,United States
-Benxi,China
-Baiyin,China
-Pittsburgh,United States
-Patna,India
-Mosul,Iraq
-Caloocan City,Philippines
-Austin,United States
-Sanzhou,China
-Beihai,China
-Mecca,Saudi Arabia
-Heihe,China
-Jingdezhen,China
-Cincinnati,United States
-Recife,Brazil
-Yushan,China
-Kansas City,United States
-Manhattan,United States
-Bilaspur,India
-Semarang,Indonesia
-Ludhiana,India
-Novosibirsk,Russia
-Chengtangcun,China
-Agra,India
-Karaj,Iran
-Wenzhou,China
-Indianapolis,United States
-Leon de los Aldama,Mexico
-Puebla,Mexico
-Kalyan,India
-Madurai,India
-Mbuji-Mayi,Congo (Kinshasa)
-Hebi,China
-Shiraz,Iran
-Jamshedpur,India
-Columbus,United States
-Tabriz,Iran
 Kawasaki,Japan
-Aba,Nigeria
-Palembang,Indonesia
-Zhangjiajie,China
 Kobe,Japan
-Charlotte,United States
-Changshu,China
-Lianjiang,China
-Ximeicun,China
-Jianguang,China
-Yucheng,China
-Belem,Brazil
-Guiping,China
-Leizhou,China
-Gwangju,South Korea
-Munich,Germany
-Nasik,India
-Porto Alegre,Brazil
-Onitsha,Nigeria
-Virginia Beach,United States
-Daejeon,South Korea
-Zapopan,Mexico
-Yekaterinburg,Russia
-Huazhou,China
 Kyoto,Japan
-Shuangyashan,China
-Pizhou,China
-El Kelaa des Srarhna,Morocco
-Kharkiv,Ukraine
-Yangshe,China
-Guyuan,China
-Khulna,Bangladesh
-Bronx,United States
-Gaozhou,China
-Chizhou,China
-Faridabad,India
-Goiania,Brazil
-Fuqing,China
-Pingdu,China
-Aurangabad,India
-Yutan,China
-Milwaukee,United States
-Huangshan,China
-Makassar,Indonesia
-Rajkot,India
-Liangshi,China
-Cordoba,Argentina
-Guarulhos,Brazil
-Al Basrah,Iraq
 Saitama,Japan
-Juarez,Mexico
-Xintai,China
-Wusong,China
-Meerut,India
-Yushu,China
-Rongcheng,China
-Huazhou,China
-Yangquan,China
-Adelaide,Australia
-Baishan,China
-Dayan,China
-Haicheng,China
-Jiangyin,China
-Huaiyin,China
-Wuzhong,China
-Cacuaco,Angola
-Barranquilla,Colombia
-Soweto,South Africa
-Jabalpur,India
-Rucheng,China
-Nizhniy Novgorod,Russia
-Shaoyang,China
-Dhanbad,India
-Laiwu,China
-Jingling,China
-Kazan,Russia
-Suwon,South Korea
-Yongcheng,China
-Calgary,Canada
-Can Tho,Vietnam
-Abuja,Nigeria
-Mandalay,Myanmar
-Beidao,China
-Xiangshui,China
-Dadukou,China
-Vila Velha,Brazil
-Chelyabinsk,Russia
-Mombasa,Kenya
-Providence,United States
-Varanasi,India
-Qom,Iran
-Zhangye,China
 Hiroshima,Japan
-Maiduguri,Nigeria
-Rosario,Argentina
-Xinyu,China
-Ahvaz,Iran
-Jacksonville,United States
-Medina,Saudi Arabia
-Srinagar,India
-Omsk,Russia
-Liaoyuan,China
-Cilacap,Indonesia
-Yingtan,China
-Bandar Lampung,Indonesia
-Samara,Russia
-Guankou,China
-Ulsan,South Korea
-Dingzhou,China
-Campinas,Brazil
-Lianyuan,China
-Rongcheng,China
-Kaiyuan,China
-Nay Pyi Taw,Myanmar
-Leiyang,China
-Yichun,China
-Benin City,Nigeria
-Birmingham,United Kingdom
-Xiantao,China
-Amritsar,India
-Callao,Peru
-Monterrey,Mexico
-Aligarh,India
-Yingchuan,China
-Ciudad Nezahualcoyotl,Mexico
-Rostov,Russia
-Guwahati,India
-Ufa,Russia
-Fes,Morocco
-Bien Hoa,Vietnam
-Ikare,Nigeria
-Salt Lake City,United States
-Bhilai,India
-Haora,India
-Xibeijie,China
-Nezahualcoyotl,Mexico
-Hanchuan,China
-Gongzhuling,China
-Krasnoyarsk,Russia
-Cologne,Germany
-Yicheng,China
-Zhufeng,China
-Sao Goncalo,Brazil
-Nashville,United States
-Vereeniging,South Africa
-Richmond,United States
-Sao Luis,Brazil
-Ranchi,India
-Taixing,China
-Gwalior,India
-Memphis,United States
-Goyang,South Korea
-Bezwada,India
-Edmonton,Canada
-Mizhou,China
-Xishan,China
-Ezhou,China
 Sendai,Japan
-Hegang,China
-Mexicali,Mexico
-Voronezh,Russia
-Perm,Russia
-Changwon,South Korea
-Zhongwei,China
-Shouguang,China
-Bogor,Indonesia
-Raleigh,United States
-Cartagena,Colombia
-Chandigarh,India
-Jodhpur,India
-Ogbomoso,Nigeria
-Taizhou,China
-Bagam,Indonesia
-Shubra al Khaymah,Egypt
-Maceio,Brazil
-Wafangdian,China
-Zhongxiang,China
-Odesa,Ukraine
-New Orleans,United States
-Villahermosa,Mexico
-Thu Duc,Vietnam
-Volgograd,Russia
-Mysore,India
-Islamabad,Pakistan
-Xinyi,China
-Raipur,India
-Arequipa,Peru
-Port Harcourt,Nigeria
-Louisville,United States
-Zaoyang,China
-Shuizhai,China
-Xingyi,China
-Kota,India
-Quetta,Pakistan
-Ottawa,Canada
-Pretoria,South Africa
-Winnipeg,Canada
-Quebec City,Canada
-Rabat,Morocco
-Kitchener,Canada
-Cape Town,South Africa
-Dodoma,Tanzania
-Halifax,Canada
-Canberra,Australia
-Yamoussoukro,Côte d'Ivoire
-Victoria,Canada
-Sucre,Bolivia
-Bloemfontein,South Africa
-New Delhi,India
-Ankara,Turkey
-Tifariti,Morocco
-Bareilly,India
-Quang Ha,Vietnam
-Xingcheng,China
-Dongtai,China
-Al Mansurah,Egypt
-Yingcheng,China
 Chiba,Japan
-Pekanbaru,Indonesia
-Luocheng,China
-Dnipro,Ukraine
-Danyang,China
-Natal,Brazil
-Nada,China
-Zamboanga City,Philippines
-Kirkuk,Iraq
-Wuchuan,China
-Huilong,China
-Oklahoma City,United States
-Morelia,Mexico
-Cebu City,Philippines
-Shaoxing,China
-Coimbatore,India
 Setagaya,Japan
-Songnam,South Korea
-Taishan,China
-Fangchenggang,China
-Solapur,India
-Tangier,Morocco
-Anqiu,China
-Feicheng,China
-Kermanshah,Iran
 Kitakyushu,Japan
-Meishan,China
-Khartoum North,Sudan
-Kisangani,Congo (Kinshasa)
-Aguascalientes,Mexico
-Marrakech,Morocco
-Donetsk,Ukraine
-Trujillo,Peru
-Taihe,China
-Bridgeport,United States
-Trichinopoly,India
-Xin'an,China
-Taihecun,China
-Naucalpan de Juarez,Mexico
-Owerri,Nigeria
-Padang,Indonesia
-Qingzhou,China
-Buffalo,United States
-Lichuan,China
-Daye,China
-Fort Worth,United States
-Hengzhou,China
-Campo Grande,Brazil
-Zhuanghe,China
-Hartford,United States
-Ad Dammam,Saudi Arabia
-Lhasa,China
-Jiaozhou,China
-Taguig City,Philippines
-Merida,Mexico
-Yangchun,China
-Bucheon,South Korea
-Dengtalu,China
-Antipolo,Philippines
-Hubli,India
-Abeokuta,Nigeria
-Cancun,Mexico
-Tucson,United States
-Krasnodar,Russia
-Natal,Brazil
-Chihuahua,Mexico
-Klang,Malaysia
-Ar Ramadi,Iraq
-Laiyang,China
-Sale,Morocco
-Jalandhar,India
-Kaifeng Chengguanzhen,China
-Ikeja,Nigeria
-Malang,Indonesia
-Marseille,France
-Saltillo,Mexico
-Gaomi,China
-Ipoh,Malaysia
-Hai'an,China
-Oran,Algeria
-Hermosillo,Mexico
-Weichanglu,China
-Shache,China
-Leping,China
-Hailun,China
-Macheng,China
-Akure,Nigeria
-Ilorin,Nigeria
-Teresina,Brazil
-Yuci,China
-Omaha,United States
-Saratov,Russia
-Erbil,Iraq
-Iguacu,Brazil
-El Paso,United States
-Pasig City,Philippines
-Denpasar,Indonesia
-Dehui,China
-Bhubaneshwar,India
-Tongchuan,China
-Cheongju,South Korea
-Warri,Nigeria
 Sakai,Japan
-Rongjiawan,China
-Butterworth,Malaysia
-Renqiu,China
-Honolulu,United States
-Xindi,China
-Wu'an,China
-Sao Bernardo do Campo,Brazil
-Gaoyou,China
-Culiacan,Mexico
-Hejian,China
-Yiyang,China
-Puxi,China
-Zijinglu,China
-Joao Pessoa,Brazil
-McAllen,United States
-Queretaro,Mexico
-Abaete,Brazil
-Palermo,Colombia
-Qingping,China
-Valencia,Spain
 Niigata,Japan
-Leeds,United Kingdom
-Moradabad,India
 Hamamatsu,Japan
-Xiangxiang,China
-Chaohucun,China
-Fuyang,China
-Lubango,Angola
-San Luis Potosi,Mexico
-Cencheng,China
-Dali,China
-Hempstead,United States
-Frankfurt,Germany
-Songzi,China
-Laixi,China
-Bahawalpur,Pakistan
-Zhongba,China
-Kaduna,Nigeria
-Qingnian,China
-Albuquerque,United States
-Xinhualu,China
 Nerima,Japan
-Guangshui,China
-Tlajomulco de Zuniga,Mexico
-Samarinda,Indonesia
-Pietermaritzburg,South Africa
-Kolhapur,India
-Sizhan,China
-Cucuta,Colombia
-Licheng,China
 Ota-ku,Japan
-Thiruvananthapuram,India
-Tyumen,Russia
-Zaporizhzhia,Ukraine
-Chengguan,China
 Kumamoto,Japan
-Nehe,China
-Birmingham,United States
-Zunhua,China
-Valenzuela,Philippines
-Orumiyeh,Iran
-Wugang,China
-Osogbo,Nigeria
-Shuangqiao,China
-Comodoro Rivadavia,Argentina
-Cagayan de Oro,Philippines
-Langzhong,China
-Qian'an,China
-Lviv,Ukraine
-Zouping,China
-An Najaf,Iraq
 Sagamihara,Japan
-Sarasota,United States
-Mississauga,Canada
 Okayama,Japan
-Anlu,China
-Dayton,United States
-Changsha,China
-Torreon,Mexico
-Shihezi,China
-George Town,Malaysia
-Enugu,Nigeria
-Soledad,Colombia
-Jaboatao,Brazil
-Yanggok,South Korea
-Yatou,China
-Santo Andre,Brazil
-Xichang,China
-Bhiwandi,India
-City of Paranaque,Philippines
-Dasmarinas,Philippines
-Chengxiang,China
-Saharanpur,India
-Warangal,India
 Edogawa,Japan
-Osasco,Brazil
-Dashiqiao,China
-Rochester,United States
-Fresno,United States
-Banjarmasin,Indonesia
-Salem,India
-General Santos,Philippines
-Bacoor,Philippines
-Shishi,China
-Guadalupe,Mexico
 Adachi,Japan
-Qianxi,China
-Tolyatti,Russia
-Bauchi,Nigeria
-Hamilton,Canada
-Miluo Chengguanzhen,China
-Gaizhou,China
-Malegaon,India
-Karbala',Iraq
-Leling,China
-Sao Jose dos Campos,Brazil
-Sevilla,Spain
-Jianshe,China
 Shizuoka,Japan
-Jingcheng,China
-Kochi,India
-Allentown,United States
-Tasikmalaya,Indonesia
-Rasht,Iran
-Xinmin,China
-Zhongshu,China
-Xigaze,China
-Gorakhpur,India
-As Sulaymaniyah,Iraq
-Zaragoza,Spain
-Acapulco de Juarez,Mexico
-Bahar,Iran
-Guankou,China
-Tulsa,United States
-Tlaquepaque,Mexico
-Mazatlan,Mexico
-Songyang,China
-Cape Coral,United States
-Puyang Chengguanzhen,China
-Qionghu,China
-Ribeirao Preto,Brazil
-Zhaodong,China
-Huambo,Angola
-Wenchang,China
-Shulan,China
-Tlalnepantla,Mexico
-Sargodha,Pakistan
-Al Hufuf,Saudi Arabia
-Durango,Mexico
-Jalingo,Nigeria
-Bouake,Côte d'Ivoire
-Sialkot City,Pakistan
-San Jose del Monte,Philippines
-Ansan,South Korea
-Lingbao Chengguanzhen,China
-Hwasu-dong,South Korea
-Hue,Vietnam
-Shimoga,India
-Xiping,China
-Sanhe,China
-Guntur,India
-Concord,United States
-Contagem,Brazil
-Tiruppur,India
-Ch'onan,South Korea
 Honcho,Japan
-Dusseldorf,Germany
-Izhevsk,Russia
-Guixi,China
-Sorocaba,Brazil
-Petaling Jaya,Malaysia
-Tengyue,China
-Wuxue,China
-Kikwit,Congo (Kinshasa)
-Colorado Springs,United States
-Qufu,China
-Gaobeidian,China
-Ruiming,China
-Gold Coast,Australia
-Xinshi,China
-Ta`izz,Yemen
-Aracaju,Brazil
-Cochabamba,Bolivia
-Jeonju,South Korea
-Jin'e,China
-Barnaul,Russia
-Makati City,Philippines
-Stuttgart,Germany
-Changping,China
-Kryvyi Rih,Ukraine
-Raurkela,India
-Halwan,Egypt
-Charleston,United States
-Chimalhuacan,Mexico
-Xinxing,China
-Suohe,China
-Mangalore,India
-Zhuangyuan,China
-Glasgow,United Kingdom
-Ulyanovsk,Russia
-Irkutsk,Russia
-Nanded,India
-Jos,Nigeria
-Pontianak,Indonesia
-Bazhou,China
-Springfield,United States
-Turpan,China
-Las Pinas City,Philippines
-Meihekou,China
-Jurong,China
-Feira de Santana,Brazil
-Khabarovsk,Russia
-Xinji,China
-Serang,Indonesia
-Kandahar,Afghanistan
-Sanya,China
-San Miguel de Tucuman,Argentina
-Yaroslavl,Russia
-Zhangshu,China
-Bagcilar,Turkey
-Grand Rapids,United States
-Vladivostok,Russia
-Kuantan,Malaysia
-Cuttack,India
-Jambi,Indonesia
-Cimahi,Indonesia
-Bacolod,Philippines
-Zhuozhou,China
-Uberlandia,Brazil
-Tianchang,China
 Kawaguchi,Japan
 Itabashi,Japan
 Suginami-ku,Japan
-Tuxtla,Mexico
-Tumkur,India
-Leipzig,Germany
-Balikpapan,Indonesia
-Qamdo,China
-Durban,South Africa
-Chanda,India
 Kagoshima,Japan
-Al Hillah,Saudi Arabia
-Makhachkala,Russia
-Sihui,China
-Mar del Plata,Argentina
-Irapuato,Mexico
-Brampton,Canada
-Luocheng,China
-Pereira,Colombia
-Mission Viejo,United States
-Dortmund,Germany
-Reynosa,Mexico
-Chuxiong,China
-Zahedan,Iran
+Hachioji,Japan
+Koto-ku,Japan
+Himeji,Japan
+Utsunomiya,Japan
+Matsuyama,Japan
+Ichikawa,Japan
+Matsudo,Japan
+Higashi-osaka,Japan
+Nishinomiya-hama,Japan
+Oita,Japan
+Kurashiki,Japan
+Katsushika-ku,Japan
+Kanazawa,Japan
+Fukuyama,Japan
+Amagasaki,Japan
+Fujisawa,Japan
+Machida,Japan
+Kashiwa,Japan
+Shinagawa-ku,Japan
+Aomori,Japan
+Toyota,Japan
+Takamatsu,Japan
+Toyama,Japan
+Toyonaka,Japan
+Nagasaki,Japan
+Hirakata,Japan
+Gifu,Japan
+Miyazaki,Japan
+Minamisuita,Japan
+Yokosuka,Japan
+Okazaki,Japan
+Ichinomiya,Japan
+Toyohashi,Japan
+Kita-ku,Japan
+Takasaki,Japan
+Nagano,Japan
+Shinjuku,Japan
+Nakano,Japan
+Kawagoe,Japan
+Wakayama,Japan
+Nara,Japan
+Koshigaya,Japan
+Takatsuki,Japan
+Tokorozawa,Japan
+Otsu,Japan
+Iwaki,Japan
+Hirosaki,Japan
+Maebashi,Japan
+Asahikawa,Japan
+Koriyama,Japan
+Kochi,Japan
+Naha,Japan
+Toshima,Japan
+Yokkaichi,Japan
+Kasugai,Japan
+Meguro,Japan
+Oakashicho,Japan
+Kurume,Japan
+Akita,Japan
+Sumida,Japan
+Morioka,Japan
+Ibaraki,Japan
+Fukushima,Japan
+Tsu,Japan
+Minato,Japan
+Fuchu,Japan
+Mito,Japan
+Ichihara,Japan
+Yao,Japan
+Nagaoka,Japan
+Kakogawacho-honmachi,Japan
+Hiratsuka,Japan
+Fukui,Japan
+Soka,Japan
+Bunkyo-ku,Japan
+Tokushima,Japan
+Shinozaki,Japan
+Hakodate,Japan
+Chofugaoka,Japan
+Shibuya-ku,Japan
+Chigasaki,Japan
+Yato,Japan
+Yamagata,Japan
+Tsukuba-kenkyugakuen-toshi,Japan
+Fuji,Japan
+Sasebo,Japan
+Arakawa,Japan
+Matsumoto,Japan
+Neya,Japan
+Saga,Japan
+Kasukabe,Japan
+Ageoshimo,Japan
+Taito,Japan
+Takarazuka,Japan
+Atsugicho,Japan
+Ota,Japan
+Hachinohe,Japan
+Nishitokyo,Japan
+Kure,Japan
+Isesaki,Japan
+Kodaira,Japan
+Itami,Japan
+Kamirenjaku,Japan
+Nagareyama,Japan
+Yachiyo,Japan
+Matsue,Japan
+Higashi-Hiroshima,Japan
+Hino,Japan
+Suzuka,Japan
+Kumagaya,Japan
+Yamaguchi,Japan
+Anjomachi,Japan
+Odawara,Japan
+Kishiwada,Japan
+Numazu,Japan
+Tachikawa,Japan
+Kofu,Japan
+Tottori,Japan
+Joetsu,Japan
+Toyokawa,Japan
+Chuo-ku,Japan
+Narashino,Japan
+Uji,Japan
+Urayasu,Japan
+Kamakurayama,Japan
+Hitachi,Japan
+Izumo,Japan
+Niiza,Japan
+Sakura,Japan
+Tomakomai,Japan
+Nishio,Japan
+Oyama,Japan
+Iwata,Japan
+Takaoka,Japan
+Obihiro,Japan
+Hadano,Japan
+Kushiro,Japan
+Ube,Japan
+Musashino,Japan
+Miyakonojo,Japan
+Higashimurayama,Japan
+Ogaki,Japan
+Matsuzaka,Japan
+Kariya,Japan
+Hitachi-Naka,Japan
+Tama,Japan
+Tochigi,Japan
+Noda,Japan
+Ueda,Japan
+Moriguchi,Japan
+Kawashiri,Japan
+Kukichuo,Japan
+Asaka,Japan
+Sayama,Japan
+Komaki,Japan
+Toda,Japan
+Imabari,Japan
+Iruma,Japan
+Yonago,Japan
+Misato,Japan
+Kusatsu,Japan
+Kakamigahara,Japan
+Okinawa,Japan
+Ashikaga,Japan
+Fukayacho,Japan
+Fujita,Japan
+Kokubunji,Japan
+Ebina,Japan
+Kuwana,Japan
+Mino,Japan
+Koga,Japan
+Ishizaki,Japan
+Tsuchiura,Japan
+Koganei,Japan
+Zama,Japan
+Shunan,Japan
+Kisarazu,Japan
+Yaizu,Japan
+Inazawa,Japan
+Isahaya,Japan
+Ome,Japan
+Abiko,Japan
+Narita,Japan
+Onomichi,Japan
+Iwakuni,Japan
+Seto,Japan
+Kadoma,Japan
+Omiyacho,Japan
+Osaki,Japan
+Iizuka,Japan
+Honcho,Japan
+Daitocho,Japan
+Matsubara,Japan
+Kirishima,Japan
+Uruma,Japan
+Ise,Japan
+Honmachi,Japan
+Kashiwara,Japan
+Urasoe,Japan
+Tsuruoka,Japan
+Ebetsu,Japan
+Fujimino,Japan
+Handa,Japan
+Kasuga,Japan
+Akishima,Japan
+Konosu,Japan
+Ikoma,Japan
+Aizuwakamatsu,Japan
+Nobeoka,Japan
+Beppu,Japan
+Shibuya,Japan
+Karatsu,Japan
+Fujimi,Japan
+Nasushiobara,Japan
+Tokai,Japan
+Koencho,Japan
+Niihama,Japan
+Sano,Japan
+Hatsukaichi,Japan
+Kamagaya,Japan
+Kakegawa,Japan
+Nagahama,Japan
+Hofu,Japan
+Hikone,Japan
+Otaru,Japan
+Higashiomi,Japan
+Oshu,Japan
+Habikino,Japan
+Ichinoseki,Japan
+Tondabayashicho,Japan
+Kazo,Japan
+Omuta,Japan
+Shirayamamachi,Japan
+Marugame,Japan
+Sandacho,Japan
+Mineshita,Japan
+Ikeda,Japan
+Tajimi,Japan
+Komatsu,Japan
+Kiryu,Japan
+Toride,Japan
+Onojo,Japan
+Inzai,Japan
+Chikushino,Japan
+Ginowan,Japan
+Saijo,Japan
+Isehara,Japan
+Sakado,Japan
+Kawachinagano,Japan
+Kanoya,Japan
+Konan,Japan
+Ashiya,Japan
+Yashio,Japan
+Inagi,Japan
+Komae,Japan
+Yotsukaido,Japan
+Nisshin,Japan
+Obu,Japan
+Settsu,Japan
+Wako,Japan
+Ama,Japan
+Kitanagoya,Japan
+Higashiyamato,Japan
+Takasagocho-takasemachi,Japan
+Warabi,Japan
+Ayase,Japan
+Owariasahi,Japan
+Nagaoka,Japan
+Kunitachi,Japan
+Shinkai,Japan
+Kiyose,Japan
+Kashiba,Japan
+Izumiotsu,Japan
+Katano,Japan
+Okegawa,Japan
+Joyo,Japan
+Chiryu,Japan
+Musashimurayama,Japan
+Kiyosu,Japan
+Dazaifu,Japan
+Hekinan,Japan
+Yoshikawa,Japan
+Tsurugashima,Japan
+Yawata-shimizui,Japan
+Chiyoda-ku,Japan
+Toyoake,Japan
+Hatogaya-honcho,Japan
+Fujiidera,Japan
+Kashiwara,Japan
+Kitamoto,Japan
+Tomigusuku,Japan
+Nagakute,Japan
+Tagajo,Japan
+Yamatotakada,Japan
+Hasuda,Japan
+Osakasayama,Japan
+Mukocho,Japan
+Tsushima,Japan
+Fussa,Japan
+Koja,Japan
+Nonoichi,Japan
+Takaishi,Japan
+Zushi,Japan
+Hamura,Japan
+Shijonawate,Japan
+Fuchu,Japan
+Shiogama,Japan
+Shiraoka,Japan
+Iwakura,Japan
+Takahama,Japan
+Suzukawa,Japan
+Kasuya,Japan
+Inuma,Japan
+Togo,Japan
+Kumatori,Japan
+Katsuren-haebaru,Japan
+Oizumi,Japan
+Nakama,Japan
+Miyoshidai,Japan
+Kanie,Japan
+Oharu,Japan
+Harima,Japan
+Aizumi,Japan
+Fuso,Japan
+Nishihara,Japan
+Minamishiro,Japan
+Koryo,Japan
+Kaita,Japan
+Ninomiya,Japan
+Mizumaki,Japan
+Chatan,Japan
+Ginan,Japan
+Oji,Japan
+Sanga,Japan
+Kitajima,Japan
+Kasamatsucho,Japan
+Kanmaki,Japan
+Yonabaru,Japan
+Showa,Japan
+Kitagata,Japan
+Utazu,Japan
+Tadaoka-higashi,Japan
+Kawai,Japan
+Oyamazaki,Japan
+Toyoyama,Japan
+Izumisano,Japan
+Kani,Japan
+Chikusei,Japan
+Tsuyama,Japan
+Sakata,Japan
+Itoshima,Japan
+Saku,Japan
+Chitose,Japan
+Munakata,Japan
+Iida,Japan
+Omura,Japan
+Kamisu,Japan
+Shimada,Japan
+Kanuma,Japan
+Shibata,Japan
+Azumino,Japan
+Sanjo,Japan
+Higashi-Matsuyama,Japan
+Hanamaki Onsen,Japan
+Kitakami,Japan
+Satsumasendai,Japan
+Imizucho,Japan
+Mihara,Japan
+Koka,Japan
+Sakai,Japan
+Fukuroi,Japan
+Mobara,Japan
+Gotenba,Japan
+Kameoka,Japan
+Kaizuka,Japan
+Iga,Japan
+Kitakoriyamacho,Japan
+Ushiku,Japan
+Sekimachi,Japan
+Chita,Japan
+Takayama,Japan
+Moriyama,Japan
+Yokotemachi,Japan
+Nakatsu,Japan
+Omihachiman,Japan
+Muroran,Japan
+Shikokuchuo,Japan
+Kimitsu,Japan
+Kashiwazaki,Japan
+Yonezawa,Japan
+Gamagori,Japan
+Akiruno,Japan
+Echizen,Japan
+Natori-shi,Japan
+Gyoda,Japan
+Hanno,Japan
+Iwamizawa,Japan
+Mooka,Japan
+Maizuru,Japan
+Kizugawa,Japan
+Honjo,Japan
+Tsubame,Japan
+Toyooka,Japan
+Nikko,Japan
+Ryugasaki,Japan
+Aira,Japan
+Nabari,Japan
+Kai,Japan
+Toyomamachi-teraike,Japan
+Daisen,Japan
+Fukuchiyama,Japan
+Tosu,Japan
+Kyotanabe,Japan
+Nakatsugawa,Japan
+Sasagawa,Japan
+Tatebayashi,Japan
+Amakusa,Japan
+Miki,Japan
+Tatsunocho-tominaga,Japan
+Yurihonjo,Japan
+Inuyama,Japan
+Kasama,Japan
+Shibukawa,Japan
+Otawara,Japan
+Ishioka,Japan
+Yukuhashi,Japan
+Katori,Japan
+Moriya,Japan
+Ritto,Japan
+Eniwa,Japan
+Minami-Alps,Japan
+Uwajima,Japan
+Anan,Japan
+Sabae,Japan
+Tanabe,Japan
+Soja,Japan
+Odate,Japan
+Fuefuki,Japan
+Kashima,Japan
+Hashima,Japan
+Yachimata,Japan
+Fukutsu,Japan
+Saiki,Japan
+Shiojiri,Japan
+Ina,Japan
+Ito,Japan
+Yanagawa,Japan
+Miyoshi,Japan
+Sodegaura,Japan
+Tamana,Japan
+Tenri,Japan
+Asahi,Japan
+Tsuruga,Japan
+Kurihara,Japan
+Shiroi,Japan
+Nago,Japan
+Kaga,Japan
+Koshizuka,Japan
+Fujioka,Japan
+Tendo,Japan
+Itoman,Japan
+Mitoyo,Japan
+Hita,Japan
+Aisai,Japan
+Tamba,Japan
+Sennan,Japan
+Koga,Japan
+Hashimoto,Japan
+Yame,Japan
+Shimotsuke,Japan
+Towada,Japan
+Sanyo-Onoda,Japan
+Joso,Japan
+Ogori,Japan
+Kesennuma,Japan
+Hyuga,Japan
+Tahara,Japan
+Chikuma,Japan
+Shirakawa,Japan
+Chichibu,Japan
+Kitahiroshima,Japan
+Tokoname,Japan
+Date,Japan
+Kokawa,Japan
+Ishikari,Japan
+Kosai,Japan
+Choshi,Japan
+Togane,Japan
+Mizuho,Japan
+Minokamo,Japan
+Uki,Japan
+Kudamatsu,Japan
+Kan'onjicho,Japan
+Tama,Japan
+Murakami,Japan
+Nogata,Japan
+Takizawa,Japan
+Hidaka,Japan
+Toki,Japan
+Narutocho-mitsuishi,Japan
+Chino,Japan
+Konan,Japan
+Funato,Japan
+Minamiuonuma,Japan
+Sakurai,Japan
+Annaka,Japan
+Nihonmatsu,Japan
+Sado,Japan
+Hanyu,Japan
+Hamada,Japan
+Naka,Japan
+Mutsu,Japan
+Tomiya,Japan
+Imaricho-ko,Japan
+Usa,Japan
+Minami-Soma,Japan
+Miyakojima,Japan
+Izumi,Japan
+Bando,Japan
+Tsukubamirai,Japan
+Arao,Japan
+Satte,Japan
+Hannan,Japan
+Nanao,Japan
+Sakaidecho,Japan
+Yuki,Japan
+Kyotango,Japan
+Miyako,Japan
+Goshogawara,Japan
+Susono,Japan
+Nakagawa,Japan
+Higashiura,Japan
+Yasu,Japan
+Kameyama,Japan
+Miyoshi,Japan
+Nichinan,Japan
+Chikugo,Japan
+Noshiromachi,Japan
+Tomisato,Japan
+Suzaka,Japan
+Tokamachi,Japan
+Hikari,Japan
+Asakura,Japan
+Nomimachi,Japan
+Midori,Japan
+Yamaga,Japan
+Omitama,Japan
+Suwa,Japan
+Ami,Japan
+Oamishirasato,Japan
+Sanmu,Japan
+Ishigaki,Japan
+Shimotsucho-kominami,Japan
+Ena,Japan
+Okaya,Japan
+Tonami,Japan
+Higashine,Japan
+Takeocho-takeo,Japan
+Ono,Japan
+Hitachi-ota,Japan
+Kikugawa,Japan
+Nanto,Japan
+Gosen,Japan
+Tomioka,Japan
+Noboribetsu,Japan
+Fujiyoshida,Japan
+Sanuki,Japan
+Hioki,Japan
+Shimeo,Japan
+Tamagawa,Japan
+Izunokuni,Japan
+Nakai,Japan
+Kurayoshi,Japan
+Kasaoka,Japan
+Takashima,Japan
+Kikuchi,Japan
+Hokota,Japan
+Shima,Japan
+Kariya,Japan
+Hokuto,Japan
+Kitakata,Japan
+Sugito,Japan
+Nanjo,Japan
+Sakura,Japan
+Tateyama,Japan
+Iwanuma,Japan
+Numata,Japan
+Nagaizumi,Japan
+Taketoyo,Japan
+Kikuyo,Japan
+Masuda,Japan
+Hagi,Japan
+Otofuke,Japan
+Goshikicho-aihara-minamidani,Japan
+Himi,Japan
+Yatomi,Japan
+Taniyama-chuo,Japan
+Ogimachi,Japan
+Shinshiro,Japan
+Hokuto,Japan
+Makinohara,Japan
+Shimabara,Japan
+Kota,Japan
+Kobayashi,Japan
+Miura,Japan
+Obita,Japan
+Kasai,Japan
+Akaiwa,Japan
+Futtsu,Japan
+Nakano,Japan
+Maniwa,Japan
+Minamishimabara,Japan
+Shimotsuma,Japan
+Nanbei,Japan
+Yuzawa,Japan
+Masaki,Japan
+Kitaibaraki,Japan
+Komoro,Japan
+Unzen,Japan
+Amami,Japan
+Sumoto,Japan
+Awaji,Japan
+Uozu,Japan
+Kato,Japan
+Yomitan,Japan
+Komono,Japan
+Agano,Japan
+Aizawa,Japan
+Ozu,Japan
+Itoigawa,Japan
+Kasumigaura,Japan
+Sagae,Japan
+Kurobeshin,Japan
+Mibu,Japan
+Takikawa,Japan
+Mitsuke,Japan
+Shibata,Japan
+Tamba-Sasayama,Japan
+Higashimatsushima,Japan
+Inashiki,Japan
+Yoshinogawa,Japan
+Umi,Japan
+Hitachiomiya,Japan
+Omagari,Japan
+Sakuragawa,Japan
+Ibusuki,Japan
+Gujo,Japan
+Nishiwaki,Japan
+Tokai,Japan
+Misawa,Japan
+Ibara,Japan
+Katsuragi,Japan
+Maibara,Japan
+Tamamura,Japan
+Seika,Japan
+Kannan,Japan
+Tsubata,Japan
+Fuchucho,Japan
+Soma,Japan
+Mizunami,Japan
+Komatsushimacho,Japan
+Kanada,Japan
+Yasugicho,Japan
+Uto,Japan
+Morohongo,Japan
+Rifu,Japan
+Miyajima,Japan
+Setouchi,Japan
+Atami,Japan
+Usuki,Japan
+Isumi,Japan
+Minami-Boso,Japan
+Kahoku,Japan
+Kamata,Japan
+Unnan,Japan
+Ozu,Japan
+Tamura,Japan
+Iyo,Japan
+Seiyo,Japan
+Sosa,Japan
+Shingu,Japan
+Awa,Japan
+Abashiri,Japan
+Ofunato,Japan
+Goto,Japan
+Inabe,Japan
+Shinjo,Japan
+Toon,Japan
+Shiso,Japan
+Uonuma,Japan
+Mizuho,Japan
+Ojiya,Japan
+Sakaiminato,Japan
+Osawa,Japan
+Taishi,Japan
+Date,Japan
+Shobara,Japan
+Hayama,Japan
+Watari,Japan
+Minamikyushu,Japan
+Asakuchi,Japan
+Shimotoba,Japan
+Kamaishi,Japan
+Bungoono,Japan
+Mashiki,Japan
+Wakabadai,Japan
+Yamanashi,Japan
+So,Japan
+Oiso,Japan
+Kuji,Japan
+Yufu,Japan
+Kaizu,Japan
+Motosu,Japan
+Shiroishi,Japan
+Minamisatsuma,Japan
+Shimanto,Japan
+Yorii,Japan
+Tawaramoto,Japan
+Zentsujicho,Japan
+Konan,Japan
+Namerikawa,Japan
+Shimizucho,Japan
+Nagato,Japan
+Bizen,Japan
+Odacho-oda,Japan
+Shima,Japan
+Yaese,Japan
+Chuo,Japan
+Namegata,Japan
+Komagane,Japan
+Sasaguri,Japan
+Katagami,Japan
+Kuroishi,Japan
+Maebara,Japan
+Ayabe,Japan
+Yawatahama-shi,Japan
+Ibaraki,Japan
+Okagaki,Japan
+Hitoyoshi,Japan
+Kaminokawa,Japan
+Yaita,Japan
+Nantan,Japan
+Omaezaki,Japan
+Kamisato,Japan
+Inami,Japan
+Kanzakimachi-kanzaki,Japan
+Yanai,Japan
+Yunoshima,Japan
+Motomiya,Japan
+Nanyo,Japan
+Ono,Japan
+Hirakawacho,Japan
+Togitsu,Japan
+Tsuru,Japan
+Myoko,Japan
+Tsuruno,Japan
+Matsubushi,Japan
+Sue,Japan
+Yoshida,Japan
+Chikuzen,Japan
+Inagawa,Japan
+Kitaakita,Japan
+Takanezawa,Japan
+Tomi,Japan
+Shibushi,Japan
+Agui,Japan
+Kaminoyama,Japan
+Ikaruga,Japan
+Koshu,Japan
+Nirasaki,Japan
+Hanawa,Japan
+Hirado,Japan
+Takahashi,Japan
+Ogawa,Japan
+Oyabe,Japan
+Saito,Japan
+Aioi,Japan
+Asago,Japan

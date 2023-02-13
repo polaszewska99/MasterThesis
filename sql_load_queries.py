@@ -1,3 +1,8 @@
+"""
+Loading data equivalent to Neo4j state from basic csv file.
+[csv file with all information about generated fake persons] -> [Neo4j loading query] -> [SQl queries to load data]*
+*(first loading data from Neo4j, next write them to DataFrame and finally load to sql tables)
+"""
 SQL_HOBBY_TABLE = '''
                     SET IDENTITY_INSERT Hobbies ON
                     INSERT INTO Hobbies (HobbyID, Name)
@@ -13,17 +18,13 @@ SQL_CHARACTERISTIC_TABLE = '''
                     '''
 TABLE_CHARACTERISTIC_COLUMNS = ['CharacteristicID', 'Name']
 SQL_CITY_TABLE = '''
-                    SET IDENTITY_INSERT Cities ON
                     INSERT INTO Cities (CityID, Name, CountryID)
                     VALUES (?, ?, ?)
-                    SET IDENTITY_INSERT Cities OFF
                     '''
 TABLE_CITY_COLUMNS = ['CityID', 'Name', 'CountryID']
 SQL_COUNTRY_TABLE = '''
-                    SET IDENTITY_INSERT Countries ON
                     INSERT INTO Countries (CountryID, Name)
                     VALUES (?, ?)
-                    SET IDENTITY_INSERT Countries OFF
                     '''
 TABLE_COUNTRY_COLUMNS = ['CountryID', 'Name']
 SQL_PERSON_TABLE = '''
@@ -58,14 +59,14 @@ TABLE_INTERESTED_IN = ['PersonID', 'HobbyID']
 
 
 def load_all_data_model_from_neo4j_to_sql(app_neo4j, app_sql):
-    '''
+    """
     Load data from Neo4j nodes and relationships to sql tables according to database diagrams
     :param app_neo4j: object of AppNeo4j class
     :param app_sql: object of AppSQL class
     :return: void
-    '''
+    """
     # Dataframes
-    countries = app_neo4j.country_to_df()
+    countries = app_neo4j.countries_to_df()
     cities = app_neo4j.cities_to_df()
     hobbies = app_neo4j.hobbies_to_df()
     characteristics = app_neo4j.characteristics_to_df()
