@@ -29,7 +29,7 @@ def limit_country_city(number_rows):
         divide_num_countries = number_rows
     elif 10000 >= number_rows <= 100000:
         divide_num_countries = int(number_rows / 10)
-    elif 100000 >= number_rows <= 1000000:
+    elif 1000000 >= number_rows >= 100000:
         divide_num_countries = int(number_rows / 50)
     else:
         number_millions = int(number_rows / 1000000)
@@ -60,7 +60,7 @@ def fake_person(number_rows):
                  "Has_Characteristic", "Wants_Characteristic", "Hobbies"])
         else:
             with open(
-                    'C:\\Users\\alicj\\.Neo4jDesktop\\relate-data\\dbmss\\dbms-1135eac1-af43-4af5-bcea-dcb29f1a1b3b\\import',
+                    'C:\\Users\\alicj\\.Neo4jDesktop\\relate-data\\dbmss\\dbms-1135eac1-af43-4af5-bcea-dcb29f1a1b3b\\import\\person.csv',
                     'r') as f:
                 last_line = f.readlines()[-1]
             result = re.split(',', last_line)

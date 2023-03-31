@@ -2,13 +2,14 @@ from neo4j import GraphDatabase
 import logging
 from neo4j.exceptions import ServiceUnavailable
 import pandas as pd
+from measure_rate import *
 
 
 class AppNeo4j:
     def __init__(self, uri, user, password):
         self.driver = GraphDatabase.driver(uri, auth=(user, password))
 
-    def load_data_from_csv(self):
+    def load_data_from_csv(self, file):
         """
         Loading data to db from csv file which contains parameters:
         "ID", "First Name", "Last Name", "genre", "orientation", "birthdate", "Country", "City",
@@ -18,11 +19,11 @@ class AppNeo4j:
         """
         with self.driver.session() as session:
             session.write_transaction(
-                self._load_data_from_csv
+                self._load_data_from_csv, file
             )
 
     @staticmethod
-    def _load_data_from_csv(tx):
+    def _load_data_from_csv(tx, file):
         """
         Static method for loading basic data to db.
         :param tx: cursor for executing queries in database
@@ -30,7 +31,7 @@ class AppNeo4j:
         """
         query = (
             """
-            LOAD CSV WITH HEADERS FROM 'file:///person.csv' AS row
+            LOAD CSV WITH HEADERS FROM $file AS row
             MERGE (p:Person {first_name: row.`First Name`, last_name: row.`Last Name`, genre: row.genre,
             sexual_orientation: row.orientation, birthdate: row.birthdate})
             MERGE (c:City{name: row.City})
@@ -45,10 +46,11 @@ class AppNeo4j:
             MERGE(ch1:Characteristic {name: char1}) 
             MERGE (ch2:Characteristic {name:char2})
             MERGE (p)-[r:INTERESTED_IN]->(h)
-            MERGE (ch2)<-[:WANTS_CHARACTERISTIC]-(p)-[:HAS_CHARACTERISTIC]->(ch1)
+            MERGE (p)-[:HAS_CHARACTERISTIC]->(ch1)
+            MERGE (p)-[:WANTS_CHARACTERISTIC]->(ch2)
             """
         )
-        result = tx.run(query)
+        result = tx.run(query, file=file)
         try:
             return [row for row in result]
         except ServiceUnavailable as exception:
@@ -286,3 +288,47 @@ class AppNeo4j:
             logging.error("{query} raised an error: \n {exception}".format(
                 query=query, exception=exception))
             raise
+
+    @fn_timer
+    def test_query(self, query):
+        with self.driver.session() as session:
+            result = session.execute_read(
+                self._test_query, query
+            )
+        return result
+
+    @fn_timer
+    def test_query_write(self, query):
+        with self.driver.session() as session:
+            result = session.write_transaction(
+                self._test_query, query
+            )
+        return result
+
+    @staticmethod
+    def _test_query(tx, query):
+        result = tx.run(query)
+        try:
+            return [row for row in result]
+        except ServiceUnavailable as exception:
+            logging.error("{query} raised an error: \n {exception}".format(
+                query=query, exception=exception))
+            raise
+
+    def remove_last_change_for_test(self, query):
+        with self.driver.session() as session:
+            result = session.write_transaction(
+                self._remove_last_change_for_test, query
+            )
+        return result
+
+    @staticmethod
+    def _remove_last_change_for_test(tx, query):
+        result = tx.run(query)
+        try:
+            return [row for row in result]
+        except ServiceUnavailable as exception:
+            logging.error("{query} raised an error: \n {exception}".format(
+                query=query, exception=exception))
+            raise
+

@@ -17,19 +17,40 @@ def fn_timer(function):
     @wraps(function)
     def function_timer(*args, **kwargs):
         start_time = time.time()
+        start_time2 = time.process_time_ns()
         result = function(*args, **kwargs)
         end_time = time.time()
+        end_time2 = time.process_time_ns()
         path = "measures.csv"
         exists = os.path.exists(path)
         with open("measures.csv", "a", newline='') as f:
             writer = csv.writer(f, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL)
             if not exists:
-                writer.writerow(["Execution Time", "CPU Usage", "Virtual Memory"])
-            f.write(str(end_time - start_time) + ",")
+                writer.writerow(["Execution Time", "CPU Usage"])
+            f.write(str(end_time - start_time) + ',' + str(end_time2 - start_time2) + '\n')
         # print(f"Runtime of {function.__name__} is {end_time - start_time:.04} seconds.")
         return result
 
     return function_timer
+
+def fn_cpu_time(function):
+    @wraps(function)
+    def function_cpu_time(*args, **kwargs):
+        start_time = time.process_time_ns()
+        result = function(*args, **kwargs)
+        end_time = time.process_time_ns()
+        path = "measures.csv"
+        exists = os.path.exists(path)
+        with open("measures.csv", "a", newline='') as f:
+            #writer = csv.writer(f, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            # if not exists:
+            #     writer.writerow(["Execution Time", "CPU Usage"])
+            f.write(str(end_time - start_time) + '\n')
+        # print(f"Runtime of {function.__name__} is {end_time - start_time:.04} seconds.")
+        return result
+
+    return function_cpu_time
+
 
 
 class DisplayCPU(threading.Thread):
@@ -41,7 +62,7 @@ class DisplayCPU(threading.Thread):
         i = 0
         while self.running:
             df.loc[i] = [
-                current_process.cpu_percent(interval=1),
+                current_process.cpu_percent(interval=None),
                 psutil.virtual_memory()[2]
             ]
             i += 1

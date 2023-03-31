@@ -73,7 +73,7 @@ def load_all_data_model_from_neo4j_to_sql(app_neo4j, app_sql):
     persons = app_neo4j.persons_to_df()
     interested_in = app_neo4j.interested_to_df()
     has_characteristic = app_neo4j.has_characteristic_to_df()
-    wants_characteristic = app_neo4j.has_characteristic_to_df()
+    wants_characteristic = app_neo4j.wants_characteristic_to_df()
     # Load dataframes to tables
     app_sql.load_data_from_neo4j(countries, TABLE_COUNTRY_COLUMNS, SQL_COUNTRY_TABLE)
     app_sql.load_data_from_neo4j(cities, TABLE_CITY_COLUMNS, SQL_CITY_TABLE)
@@ -83,3 +83,79 @@ def load_all_data_model_from_neo4j_to_sql(app_neo4j, app_sql):
     app_sql.load_data_from_neo4j(interested_in, TABLE_INTERESTED_IN, SQL_INTERESTED_IN_TABLE)
     app_sql.load_data_from_neo4j(has_characteristic, TABLE_HAS_CHARACTERISTIC, SQL_HAS_CHARACTERISTIC_TABLE)
     app_sql.load_data_from_neo4j(wants_characteristic, TABLE_WANTS_CHARACTERISTIC, SQL_WANTS_CHARACTERISTIC_TABLE)
+
+
+# SQL_BULK_INSERT_FROM_CSV = '''
+# BULK INSERT Countries
+# FROM 'C:\\Users\\alicj\\OneDrive\\Dokumenty\\WSB\\praca magisterska\\files_load_data\\300 tys osob\\countries2k.csv'
+# WITH
+# (
+#         FORMAT='CSV',
+#         FIRSTROW=2,
+# 		ROWTERMINATOR = '0x0a'
+# )
+# GO
+# BULK INSERT Cities
+# FROM 'C:\Users\alicj\OneDrive\Dokumenty\WSB\praca magisterska\files_load_data\300 tys osob\cities2k.csv'
+# WITH
+# (
+#         FORMAT='CSV',
+#         FIRSTROW=2,
+# 		ROWTERMINATOR = '0x0a'
+# )
+# GO
+# BULK INSERT Hobbies
+# FROM 'C:\Users\alicj\OneDrive\Dokumenty\WSB\praca magisterska\files_load_data\300 tys osob\hobbies2k.csv'
+# WITH
+# (
+#         FORMAT='CSV',
+#         FIRSTROW=2,
+# 		ROWTERMINATOR = '0x0a'
+# )
+# GO
+# BULK INSERT Characteristics
+# FROM 'C:\Users\alicj\OneDrive\Dokumenty\WSB\praca magisterska\files_load_data\300 tys osob\characteristics2k.csv'
+# WITH
+# (
+#         FORMAT='CSV',
+#         FIRSTROW=2,
+# 		ROWTERMINATOR = '0x0a'
+# )
+# GO
+# BULK INSERT Persons
+# FROM 'C:\Users\alicj\OneDrive\Dokumenty\WSB\praca magisterska\files_load_data\300 tys osob\persons2k.csv'
+# WITH
+# (
+#         FORMAT='CSV',
+#         FIRSTROW=2,
+# 		ROWTERMINATOR = '0x0a'
+# )
+# GO
+# BULK INSERT Interested_in
+# FROM 'C:\Users\alicj\OneDrive\Dokumenty\WSB\praca magisterska\files_load_data\300 tys osob\interested2k.csv'
+# WITH
+# (
+#         FORMAT='CSV',
+#         FIRSTROW=2,
+# 		ROWTERMINATOR = '0x0a'
+# )
+# GO
+# BULK INSERT Has_Characteristic
+# FROM 'C:\Users\alicj\OneDrive\Dokumenty\WSB\praca magisterska\files_load_data\300 tys osob\has2k.csv'
+# WITH
+# (
+#         FORMAT='CSV',
+#         FIRSTROW=2,
+# 		ROWTERMINATOR = '0x0a'
+# )
+# GO
+# BULK INSERT Wants_Characteristic
+# FROM 'C:\Users\alicj\OneDrive\Dokumenty\WSB\praca magisterska\files_load_data\300 tys osob\wantsch2k.csv'
+# WITH
+# (
+#         FORMAT='CSV',
+#         FIRSTROW=2,
+# 		ROWTERMINATOR = '0x0a'
+# )
+# GO
+# '''
